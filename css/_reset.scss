@@ -1,0 +1,22 @@
+// Fonts.....
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700&family=Manrope:wght@200;400;700&family=Poppins:wght@400;500&display=swap');
+
+// Reset Css Here....
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    ul{
+        list-style-type: none;
+    }
+    a{
+        text-decoration: none;
+    }
+    
+}
+img{
+    width: 100% !important;
+    height: 100% !important;
+}
