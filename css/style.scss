@@ -15,6 +15,7 @@ $black: #0A0826;
 $light: #FFFFFF;
 $gold: #FB8200;
 $gray: #787885;
+$purple: #F1E4FF;
 
 // Extra Style: 
 ::selection{
@@ -31,11 +32,57 @@ $gray: #787885;
   }
 
 body{
-    max-width: 100%;
+    max-width: 1440px;
     height: auto;
     background-color: $light;
 }
+// Hero Section Design Here.....
+#hero{
+    max-width:1080px;
+    margin: 0 auto;
+    .hero-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .left-content{
+            h1{
+                font-family: 'poppins',sans-serif;
+                font-weight: 700;
+                font-size: 3.25rem;
+                color: $black;
+            }
+            p{
+                font-family: 'poppins', sans-serif;
+                font-weight: 500;
+                font-size: 1rem;
+                color: $dark;
+            }
+        }
+        .right-img{
+            border: 3px solid $purple;
+            border-radius: 200px;
+            padding: 20px;
 
+            overflow: hidden;
+            
+           
+            .img-bg{
+                position: relative;
+            }
+            .img-bg::before{
+                content: "";
+                position: absolute;
+                top: 50px;
+                left: 50px;
+                width: 15.625rem;
+                height: 15.625rem;
+                border-radius: 125px;
+                background-color: #F1E4FF;
+                z-index: -100;
+            }
+        }
+    }
+}
 
 // Popular Section Design Here....
 #popular-area{

@@ -1,0 +1,23 @@
+//Variable Here....
+$pink: #E02C6D;
+$pink-50: #e02c6e76;
+$dark: #3A3A3A;
+$black: #0A0826;
+$light: #FFFFFF;
+$gold: #FB8200;
+$gray: #787885;
+
+.btn{
+    background-color: $pink;
+    padding: 10px 24px;
+    border: 0;
+    margin: 10px 0;
+    border-radius: 41px;
+    a{
+        color: $light;
+        font-family: 'poppins',sans-serif;
+        font-weight: 700;
+        font-size: 1rem;
+    }
+}
+
